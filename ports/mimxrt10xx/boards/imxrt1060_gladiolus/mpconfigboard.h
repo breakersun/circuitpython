@@ -1,4 +1,4 @@
-#define MICROPY_HW_BOARD_NAME "iMX RT 1060 EVKB"
+#define MICROPY_HW_BOARD_NAME "Gladiolus"
 #define MICROPY_HW_MCU_NAME "IMXRT1062DVJ6A"
 
 // If you change this, then make sure to update the linker scripts as well to
