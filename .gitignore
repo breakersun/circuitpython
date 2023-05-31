@@ -91,3 +91,5 @@ TAGS
 
 # Uncrustify formatting
 *.uncrustify
+/ports/mimxrt10xx/.cache/
+/ports/mimxrt10xx/compile_commands.json
