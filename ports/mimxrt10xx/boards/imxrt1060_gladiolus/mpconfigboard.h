@@ -16,8 +16,8 @@
 #define DEFAULT_UART_BUS_RX (&pin_GPIO_AD_B1_07)
 #define DEFAULT_UART_BUS_TX (&pin_GPIO_AD_B1_06)
 
-#define CIRCUITPY_CONSOLE_UART_TX (&pin_GPIO_AD_B0_12)
-#define CIRCUITPY_CONSOLE_UART_RX (&pin_GPIO_AD_B0_13)
+#define CIRCUITPY_CONSOLE_UART_TX (&pin_GPIO_EMC_13)
+#define CIRCUITPY_CONSOLE_UART_RX (&pin_GPIO_B0_09)
 
 // Put host on the first USB so that right angle OTG adapters can fit. This is
 // the right port when looking at the board.
