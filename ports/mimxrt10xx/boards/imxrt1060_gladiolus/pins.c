@@ -116,9 +116,9 @@ STATIC const mp_rom_map_elem_t board_module_globals_table[] = {
     { MP_ROM_QSTR(MP_QSTR_ETHERNET_CLK), MP_ROM_PTR(&pin_GPIO_B1_10) },
     { MP_ROM_QSTR(MP_QSTR_ETHERNET_RXER), MP_ROM_PTR(&pin_GPIO_B1_11) },
 
-    // Freelink UART
-    { MP_ROM_QSTR(MP_QSTR_FREELINK_TX), MP_ROM_PTR(&pin_GPIO_AD_B0_12) },
-    { MP_ROM_QSTR(MP_QSTR_FREELINK_RX), MP_ROM_PTR(&pin_GPIO_AD_B0_13) },
+    // IMX8 UART
+    { MP_ROM_QSTR(MP_QSTR_IMX8UART_TX), MP_ROM_PTR(&pin_GPIO_EMC_38) },
+    { MP_ROM_QSTR(MP_QSTR_IMX8UART_RX), MP_ROM_PTR(&pin_GPIO_EMC_39) },
 
     // CAN
     { MP_ROM_QSTR(MP_QSTR_CAN_TX), MP_ROM_PTR(&pin_GPIO_AD_B0_14) },
