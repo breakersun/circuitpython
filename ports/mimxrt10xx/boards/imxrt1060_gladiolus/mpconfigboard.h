@@ -7,8 +7,8 @@
 
 #define BOARD_FLASH_SIZE (8 * 1024 * 1024)
 
-#define DEFAULT_I2C_BUS_SCL (&pin_GPIO_AD_B1_00)
-#define DEFAULT_I2C_BUS_SDA (&pin_GPIO_AD_B1_01)
+#define DEFAULT_I2C_BUS_SCL (&pin_GPIO_AD_B1_07)
+#define DEFAULT_I2C_BUS_SDA (&pin_GPIO_AD_B1_06)
 
 #define DEFAULT_UART_BUS_RX (&pin_GPIO_AD_B1_07)
 #define DEFAULT_UART_BUS_TX (&pin_GPIO_AD_B1_06)
