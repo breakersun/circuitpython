@@ -31,9 +31,9 @@ STATIC const mp_rom_map_elem_t board_module_globals_table[] = {
     { MP_ROM_QSTR(MP_QSTR_IMX8UART_RX), MP_ROM_PTR(&pin_GPIO_EMC_39) },
 
     // CAN
-    { MP_ROM_QSTR(MP_QSTR_CAN_TX), MP_ROM_PTR(&pin_GPIO_AD_B0_14) },
-    { MP_ROM_QSTR(MP_QSTR_CAN_RX), MP_ROM_PTR(&pin_GPIO_AD_B0_15) },
-    { MP_ROM_QSTR(MP_QSTR_CAN_STBY), MP_ROM_PTR(&pin_GPIO_AD_B0_05) },
+    { MP_ROM_QSTR(MP_QSTR_CAN_TX), MP_ROM_PTR(&pin_GPIO_EMC_36) },
+    { MP_ROM_QSTR(MP_QSTR_CAN_RX), MP_ROM_PTR(&pin_GPIO_EMC_37) },
+    { MP_ROM_QSTR(MP_QSTR_CAN_STBY), MP_ROM_PTR(&pin_GPIO_B0_03) },
 
     // USB
     #if CIRCUITPY_USB_HOST_INSTANCE == 0
