@@ -22,8 +22,8 @@ const flexspi_nor_config_t qspiflash_config = {
         .tag = FLEXSPI_CFG_BLK_TAG,
         .version = FLEXSPI_CFG_BLK_VERSION,
         .readSampleClkSrc = kFLEXSPIReadSampleClk_LoopbackFromDqsPad,
-        .csHoldTime = 3u,
-        .csSetupTime = 3u,
+        .csHoldTime = 20u,
+        .csSetupTime = 20u,
 
         .busyOffset = 0u,     // Status bit 0 indicates busy.
         .busyBitPolarity = 0u,     // Busy when the bit is 1.
