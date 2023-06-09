@@ -56,6 +56,13 @@ STATIC const mp_rom_map_elem_t board_module_globals_table[] = {
     // Cooling FANs * 2
     { MP_ROM_QSTR(MP_QSTR_COOLING_FAN1), MP_ROM_PTR(&pin_GPIO_B1_06) },
     { MP_ROM_QSTR(MP_QSTR_COOLING_FAN2), MP_ROM_PTR(&pin_GPIO_B1_07) },
+
+    // Stove temperature sensor * 4
+    { MP_ROM_QSTR(MP_QSTR_TEMP_STOVE_LB), MP_ROM_PTR(&pin_GPIO_AD_B1_12) },
+    { MP_ROM_QSTR(MP_QSTR_TEMP_STOVE_LT), MP_ROM_PTR(&pin_GPIO_AD_B1_14) },
+    { MP_ROM_QSTR(MP_QSTR_TEMP_STOVE_RB), MP_ROM_PTR(&pin_GPIO_AD_B1_05) },
+    { MP_ROM_QSTR(MP_QSTR_TEMP_STOVE_RT), MP_ROM_PTR(&pin_GPIO_AD_B1_10) },
+
     // USB
     #if CIRCUITPY_USB_HOST_INSTANCE == 0
     { MP_ROM_QSTR(MP_QSTR_USB_HOST_DP), MP_ROM_PTR(&pin_USB_OTG1_DP) },
