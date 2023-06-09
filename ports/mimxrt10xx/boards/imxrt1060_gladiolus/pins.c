@@ -77,8 +77,6 @@ STATIC const mp_rom_map_elem_t board_module_globals_table[] = {
 
     // Pot Sensor Interrupt
     { MP_ROM_QSTR(MP_QSTR_POT_DET_INT), MP_ROM_PTR(&pin_GPIO_SD_B1_04) },
-    { MP_ROM_QSTR(MP_QSTR_I2C_SCL), MP_ROM_PTR(DEFAULT_I2C_BUS_SCL) },
-    { MP_ROM_QSTR(MP_QSTR_I2C_SDA), MP_ROM_PTR(DEFAULT_I2C_BUS_SDA) },
 
     // USB
     #if CIRCUITPY_USB_HOST_INSTANCE == 0
