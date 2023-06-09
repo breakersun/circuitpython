@@ -16,6 +16,10 @@
 #define CIRCUITPY_CONSOLE_UART_TX (&pin_GPIO_EMC_13)
 #define CIRCUITPY_CONSOLE_UART_RX (&pin_GPIO_B0_09)
 
+#define DEFAULT_SPI_BUS_SCK  (&pin_GPIO_EMC_00)
+#define DEFAULT_SPI_BUS_MOSI (&pin_GPIO_EMC_02)
+#define DEFAULT_SPI_BUS_MISO (&pin_GPIO_EMC_03)
+
 // Put host on the first USB so that right angle OTG adapters can fit. This is
 // the right port when looking at the board.
 #define CIRCUITPY_USB_DEVICE_INSTANCE 0
